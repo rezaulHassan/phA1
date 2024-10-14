@@ -82,19 +82,24 @@ margin: 0px 10px;
 }
 #div1{
    
+/* Frame 5 */
 position: static;
 width: 852px;
 height: 113px;
+/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 gap: 24;
 padding: 0px;
+
+
+/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-margin: 48px 0px;
+margin: 0px 0px 100px;
 }
 #parent-div2{
     /* Frame 8 */
@@ -102,7 +107,7 @@ position: static;
 width: 946px;
 height: 336px;
 /* Auto layout */
-display: flex;
+display: pflex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
@@ -191,3 +196,26 @@ gap: 32px;
 
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+#my-inspiration{
+
+/* Frame 15 */
+position: absolute;
+width: 1140px;
+height: 775px;
+left: 148px;
+right: 152px;
+top: 2340px;
+bottom: 2130px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 48;
+padding: 0px;
+
+
+
+
+}
+
